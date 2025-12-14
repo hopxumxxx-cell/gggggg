@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lớp 12a1 </title>
+<style>
+:root {
+    /* Định nghĩa biến màu chủ đạo */
+    --main-color-dark: #2E8B57; /* Xanh lá đậm - cho tiêu đề, footer */
+    --main-color-light: #90EE90; /* Xanh lá nhạt - cho nền menu, nút */
+    --accent-color: #FFD700;    /* Vàng gold - cho điểm nhấn, hover */
+    --text-color: #333;
+    --bg-color: #F8F8F8; /* Nền chung nhạt */
+}
+
+/* Cài đặt chung */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--main-color-dark);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--main-color-dark);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+}
+
+/* Menu Điều hướng (Yêu cầu 4) */
+nav {
+    background-color: var(--main-color-light);
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--main-color-dark);
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: var(--accent-color);
+    color: var(--main-color-dark); /* Đổi màu chữ khi hover để nổi bật */
+}
+
+/* Nội dung chính */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Hình ảnh (Yêu cầu "Hình ảnh") */
+img.class-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid var(--main-color-dark); /* Khung ảnh nổi bật */
+}
+
+/* Footer */
+footer {
+    background-color: var(--main-color-dark);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>lớp 12a1 chuyên tự nhiên </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html ">Giới Thiệu</a></li>
+            <li><a href="v.html ">Thành Viên</a></li>
+            <li><a href="p.html ">Hoạt Động Lớp</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>✨ Giới Thiệu Chung</h2>
+
+        <h3>Tên Lớp:</h3>
+        <p> Lớp 12a1 </p>
+
+        <h3>Khẩu Hiệu:</h3>
+        <p> Học hết mình, chơi nhiệt tình! </p>
+
+        <h3>Hình Tập Thể:</h3>
+        <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/597823487_122292632744187835_5967541427588752650_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHnrCkkD0ebBtvUCYGOj6tjrbn8gHvahrStufyAe9qGtP4YHTegWrGTEseffWYjd-VPhfpQ6nlJ_RPsyL-mCUva&_nc_ohc=YrwFDpmvZnkQ7kNvwHYkoDY&_nc_oc=AdnOc1XN3Jpg0LJ4FHo5Jo5KVIT0Rz4LkLkhXMAJCUsKAyYybt613MTBixX5qJsMaJ6da0j56-yQxH78DN0vcDTy&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=K8lKi-FgGmohaDjS5O6fVg&oh=00_Afl3CHePiYdq6M4Q4zlRtsz7nPTL5V1NNlrM6xqV5b4X4w&oe=6944361A" alt="Ảnh Tập Thể Lớp 12a1 " class="class-photo" width=>
+
+        <p>Đây là ngôi nhà chung của 42 thành viên với nhiều cá tính nổi bật, cùng nhau học tập và phát triển.</p>
+
+    </div>
+</body>
+</html>

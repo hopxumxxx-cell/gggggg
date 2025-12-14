@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thành Viên Lớp 12a1 </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS riêng cho trang thành viên */
+        .member-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .member-card {
+            background-color: #FFFACD; /* Vàng nhạt */
+            border: 2px solid var(--accent-color);
+            border-radius: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+        }
+
+        .member-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%; /* Ảnh tròn */
+            border: 3px solid var(--main-color-dark);
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .member-card h4 {
+            color: var(--main-color-dark);
+            margin: 5px 0;
+        }
+        
+        .member-card p {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+
+<style>
+:root {
+    /* Định nghĩa biến màu chủ đạo */
+    --main-color-dark: #2E8B57; /* Xanh lá đậm - cho tiêu đề, footer */
+    --main-color-light: #90EE90; /* Xanh lá nhạt - cho nền menu, nút */
+    --accent-color: #FFD700;    /* Vàng gold - cho điểm nhấn, hover */
+    --text-color: #333;
+    --bg-color: #F8F8F8; /* Nền chung nhạt */
+}
+
+/* Cài đặt chung */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--main-color-dark);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--main-color-dark);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+}
+
+/* Menu Điều hướng (Yêu cầu 4) */
+nav {
+    background-color: var(--main-color-light);
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--main-color-dark);
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: var(--accent-color);
+    color: var(--main-color-dark); /* Đổi màu chữ khi hover để nổi bật */
+}
+
+/* Nội dung chính */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Hình ảnh (Yêu cầu "Hình ảnh") */
+img.class-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid var(--main-color-dark); /* Khung ảnh nổi bật */
+}
+
+/* Footer */
+footer {
+    background-color: var(--main-color-dark);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>Thành Viên Lớp</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Giới Thiệu</a></li>
+            <li><a href="v.html">Thành Viên</a></li>
+            <li><a href="p.html">Hoạt Động Lớp</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>👥 Danh Sách Thành Viên Nổi Bật</h2>
+        
+        <div class="member-list">
+            <div class="member-card">
+                <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/598573808_122292619670187835_2286099960684410759_n.jpg?stp=c0.91.821.821a_dst-jpg_s206x206_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeGiMzVHVPf_u7A5hAor0O3JnKJvrBQtsdycom-sFC2x3AtXsd8dT6wpKQCVQgXZ54AKDZWUiAJPg8hlWxwM2Lhp&_nc_ohc=VqMjspiZKx4Q7kNvwEtpXKy&_nc_oc=Admga5k3fNeK-ZK2HP3h3SrkB0-TTIqFsVDeefWU7EQSiHH33CAxfDtjmJAKNk4leC5XlebFvHGvfCFa79y9gaOm&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=deIH_hemANveU1PlGOhsMA&oh=00_AfnjD7IH75SiliwDljQtbxiZ0HH5CJiCq-sgEEqyfH1zkA&oe=6944456D" alt="Ảnh Thành Viên 1">
+                <h4> Phạm Mạnh </h4>
+                <p>Chức vụ: giáo viên chủ nhiệm</p>
+            </div>
+           
+            <div class="member-card">
+                <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/600391874_122292630440187835_26875438805721013_n.jpg?stp=c0.34.665.665a_dst-jpg_s206x206_tt6&_nc_cat=110&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeEMVAHq0GlapTNsenHlYNQJgFLrrJbp2AyAUuuslunYDH0lcHVif6WCNze9fIFl_K9EcCDB9RgDOby_do_rgCkz&_nc_ohc=OvjRFX6GYjMQ7kNvwGeo8F9&_nc_oc=AdncJa3jTp1zbmqIHey3eJdXZ0YddBi5hqhlVyi9sSyzz_3R5WRfrXEa7p3ym9TJ8Tsr9-McEVXozp0mHafBAWFT&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=eLN3L4FGsgHhplE5YEqyIA&oh=00_AfmOEPBEXx6YiR7oLwqH3u522rJmGVbEQBcz-ERuL1X2aA&oe=69445002" alt="Ảnh Thành Viên 2">
+                <h4>Hạ Vy </h4>
+                <p>Chức vụ: Lớp Trưởng</p>
+            </div>
+
+            <div class="member-card">
+                <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/599648064_122292619910187835_8066589796770882794_n.jpg?stp=c0.28.489.489a_dst-jpg_s206x206_tt6&_nc_cat=104&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeE42ZmhT9moSyGazvoPJWZre3dBjv_gS2l7d0GO_-BLaXqiT5OwR2vBWt9cedSNF8u8tuAfRw6bEsohNmctXFXk&_nc_ohc=vnhXiscS6y0Q7kNvwEcLCts&_nc_oc=AdkgrzUP-UzF2VAWBCNYRXt8F3FpdtY1pqF1fUegfWL95ZynY07zzy4YyaePzoTRVYSdxuDlIl8hFEz75DMLUUy6&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=eLN3L4FGsgHhplE5YEqyIA&oh=00_AfmUwe1IhHez1KAOBsqX6YdlJWgWFbmf5e28VNgGRJEZ4Q&oe=69442913" alt="ảnh thành viên 3">
+                <h4>Trang Linh </h4>
+                <p>Chức vụ: lớp phó học tập</p>
+            </div>
+            
+            <div class="member-card">
+                <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/599051985_122292619814187835_1848596473984060279_n.jpg?stp=c0.54.518.518a_dst-jpg_s206x206_tt6&_nc_cat=110&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeHN6KA45MUhiiG9X1D1_Iu6bq1st-XTE7ZurWy35dMTtqlER5mmaUI_fy37PWDjo9_G82e76Yxxbehi_6lpmTYl&_nc_ohc=EYJJLKzBZnEQ7kNvwH_JnWV&_nc_oc=AdlP5AEVXgfG-LHkeuuU-sHxkn9JOWQCwWZrTA0MWPCFPjL5_a6-iyerPaYqwdovmeVqHuVzes454fIv00vKtJST&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=2rdOk-q9xguV7t2WhBF7aQ&oh=00_Afle5sGbUYQjdd9yTdxlieI8ppnWaYAYPqk672H6nBssaw&oe=69445232" alt="Ảnh Thành Viên 4">
+                <h4>Thế Duy</h4>
+                <p>Chức vụ: tổ trưởng tổ 2</p>
+            </div>
+            
+           <div class="member-card">
+                <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/598267509_122292619766187835_3113872447558664318_n.jpg?stp=c0.39.594.594a_dst-jpg_s206x206_tt6&_nc_cat=109&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeFin3Hy1-gtsHH91IVSl1wP3r5_7rK10eHevn_usrXR4YeScjpkFhaKB6pD4RKfz-ENpicsTkutbM3CXgE_RX4t&_nc_ohc=PiP_ToXx_EoQ7kNvwExgwih&_nc_oc=Adm2nPr6ag75bcG68Map-qB5pB6PBB_2lijK8CzKrb8KqR3iz_TIteHuANuo4RAtL-Gmm1kk7XOr_33F73uVbYoZ&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=2rdOk-q9xguV7t2WhBF7aQ&oh=00_AfmwCSQrPU4nCx3rA0oYwt7lJ8VGsHw81y5Zz41Fs11iMA&oe=69444D70" alt="Ảnh Thành Viên 5">
+                <h4> Trí Dũng</h4>
+                <p>Chức vụ: tổ trưởng tổ 3</p>
+            </div>
+            
+            <div class="member-card">
+                <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/598114339_122292619958187835_6355137485673305215_n.jpg?stp=c0.35.432.432a_dst-jpg_s206x206_tt6&_nc_cat=110&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeEidQdDaQ-a0Thcb1Eeiq6LGyDz_d7F8KAbIPP93sXwoJrLmotGGJHxCd3lMHgBYFnJnBtn7_8i8t4FPzHtCC8J&_nc_ohc=99ikih18kDoQ7kNvwGsfdZE&_nc_oc=Admso76w1Kqj8JbnNpei8nVlMxwJlzX0HLCGMvjCwGdy8Whh_RU5RCbItztK_mPHBZnoJV-Zb4nJE_T6_pXUsabt&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=2rdOk-q9xguV7t2WhBF7aQ&oh=00_AfnnKwsQ5i-CBfQSG-hENZjXzRc5BV6qOxnfYN0Q0L8bmQ&oe=6944228C" alt="Ảnh Thành Viên 6">
+                <h4> Như Phúc  </h4>
+                <p>Chức vụ: tổ trưởng tổ 4</p>
+            </div>
+    </div>
+
+</body>
+</html>

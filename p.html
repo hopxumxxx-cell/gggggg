@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoạt Động Lớp</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS riêng cho trang hoạt động */
+        .activity {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 5px solid var(--accent-color);
+            background-color: #f9fff5; /* Nền hoạt động hơi xanh lá */
+            border-radius: 5px;
+        }
+        .activity h3 {
+            color: var(--main-color-dark);
+            margin-top: 0;
+        }
+        .activity img {
+            max-width: 80%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
+    <style>
+:root {
+    /* Định nghĩa biến màu chủ đạo */
+    --main-color-dark: #2E8B57; /* Xanh lá đậm - cho tiêu đề, footer */
+    --main-color-light: #90EE90; /* Xanh lá nhạt - cho nền menu, nút */
+    --accent-color: #FFD700;    /* Vàng gold - cho điểm nhấn, hover */
+    --text-color: #333;
+    --bg-color: #F8F8F8; /* Nền chung nhạt */
+}
+
+/* Cài đặt chung */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--main-color-dark);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--main-color-dark);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+}
+
+/* Menu Điều hướng (Yêu cầu 4) */
+nav {
+    background-color: var(--main-color-light);
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--main-color-dark);
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: var(--accent-color);
+    color: var(--main-color-dark); /* Đổi màu chữ khi hover để nổi bật */
+}
+
+/* Nội dung chính */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Hình ảnh (Yêu cầu "Hình ảnh") */
+img.class-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid var(--main-color-dark); /* Khung ảnh nổi bật */
+}
+
+/* Footer */
+footer {
+    background-color: var(--main-color-dark);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Các Hoạt Động Của Lớp</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Giới Thiệu</a></li>
+            <li><a href="v.html">Thành Viên</a></li>
+            <li><a href="p.html">Hoạt Động Lớp</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>🎉 Những Khoảnh Khắc Đáng Nhớ</h2>
+        
+        <div class="activity">
+            <h3>1. kéo co hội thao </h3>
+            <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/597721663_122292623396187835_7353951471238285034_n.jpg?stp=c136.0.808.808a_dst-jpg_s206x206_tt6&_nc_cat=101&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeGFvxwdKvfZArBC8gQEab1OfvltTj5DbeF--W1OPkNt4ZL72x8pwjOBNfxv1mWWAnFmIzS4G7JSFISPfLzT1_HH&_nc_ohc=N1d8PvKCsMwQ7kNvwHjT-O0&_nc_oc=Adnu94dX_6utoCU0cq82677fPJDLZ96AoB1Foo7QuZf-kC5AfmsTGrYwpy_3O0q2QA8sDD0KxLghDxE86KJhQSY5&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=2rdOk-q9xguV7t2WhBF7aQ&oh=00_AfkPq5hRMSC4pqSYQ3toXrpCEN684h93iuWETRFgjJimEA&oe=69443E7E" alt="Ảnh Hoạt Động 1">
+            <p>Giành được hạng 3</p>
+        </div>
+
+        <div class="activity">
+            <h3>2. bóng chuyền nữ</h3>
+            <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/600323947_122292623288187835_7207776376240103956_n.jpg?stp=c136.0.808.808a_dst-jpg_s206x206_tt6&_nc_cat=106&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeG8Couh5D6GieQOaMj0V3O65TsTifBsRSjlOxOJ8GxFKCeqaeow_3CSXrg-IQ4oAP_aLuw5V1xoVgzVYwBQGwe0&_nc_ohc=kIkjnfDtfhYQ7kNvwFemZAS&_nc_oc=AdkqsMZFmYnhDjYMXzUjfe0ZuwWbPrbzHm4BkY43uNYr2TScNcla5NW55Y-hMrkP0IdRRAXxJdQUIrHp_o_re4-L&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=2rdOk-q9xguV7t2WhBF7aQ&oh=00_AfnT45CV5fy5hJ5Acwi_pT_xsIo0bviyjZ6CHN-r8xE7LQ&oe=69443EF5" alt="Ảnh Hoạt Động 2">
+            <p>Thắng 1 vòng</p>
+        </div>
+        
+        <div class="activity">
+            <h3>3. tổ chứ 20/11</h3>
+            <img src="https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-6/600229175_122292623348187835_7886715952792515358_n.jpg?stp=dst-jpg_s206x206_tt6&_nc_cat=106&ccb=1-7&_nc_sid=50ad20&_nc_eui2=AeGkWpkhyylME8AK-shbhCFFtqM9a7rxfJS2oz1ruvF8lC0ss5BcEdYBwAgcFSRCmh800H8J2T-RHkdxc5lfcRSa&_nc_ohc=MmqXsf_aPlEQ7kNvwG9f2YM&_nc_oc=AdlvjKUxw6NwAbePaJhGSSr-i5vQNkAZv3XBafGZQh0gFKIyFSMF8Gap2VQYcr-pArzRAgMyepJIMaqJ1YIslc8H&_nc_zt=23&_nc_ht=scontent.fsgn21-1.fna&_nc_gid=2rdOk-q9xguV7t2WhBF7aQ&oh=00_AflyYDqFYB5rENItt7VBJyWqHHzvLxxSwZBJEJqfM0MqQQ&oe=69444254" alt="Ảnh Hoạt Động 3">
+            <p>yeah được nghỉ</p>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2025 Trang Web Lớp Học | Liên hệ: **[Gợi ý: Email của lớp/trưởng lớp]**
+    </footer>
+
+</body>
+</html>
